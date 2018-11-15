@@ -19,6 +19,18 @@
                 margin-top: 6px;
             }
 
+            .card {
+                border: initial;
+            }
+
+            .card-header {
+                background-color: initial;
+            }
+
+            .card:last-child .card-header {
+                border-bottom: 0;
+            } 
+
             header::after {
                 background-color: #1c7ed6;
                 content: "";
@@ -250,7 +262,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -258,8 +269,8 @@
                 </div>
             </main>
 
-            <footer class="border-top pt-4 mx-auto my-4">
-                <p>
+            <footer class="mx-auto my-4 px-4">
+                <p class="border-top pt-4">
                     Reach out to me at <a href="mailto:kareem@kzidane.net">kareem@kzidane.net</a> or <a href="mailto:kzidane@cs50.harvard.edu">kzidane@cs50.harvard.edu</a> for anything CS50-related!
                 </p>
                 <a class="mr-1 text-dark " href="mailto:kareem@kzidane.net"><i class="fas fa-at"></i></a>
