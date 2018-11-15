@@ -4,13 +4,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
         <title>Kareem Zidane</title>
 
         <style>
+            a, button {
+                text-decoration: none !important;
+            }
+
+            .badge {
+                margin-top: 6px;
+            }
+
             header::after {
                 background-color: #1c7ed6;
                 content: "";
@@ -23,57 +31,242 @@
                 z-index: -1;
             }
 
+            header > div {
+                position: absolute;
+                top: 12%;
+                margin: -120px auto 0 auto;
+                width: 100%;
+            }
+
             img {
                 width: 180px;
             }
 
-            main > div {
+            footer, main {
                 max-width: 1024px;
             }
 
-            p {
-                font-size: 18px;
+            body > div {
+                position: absolute;
+                top: 12%;
+                margin-top: 120px;
+                    width: 100%;
             }
 
-            #links {
+            i, p {
                 font-size: 18px;
             }
         </style>
     </head>
     <body class="h-100 text-center">
-        <header class="p-4 w-100">
+        <header class="w-100">
             <div>
-                <img alt="Kareem" class="rounded-circle" src="me.jpg">
+                <img alt="Kareem" class="rounded-circle" src="images/me.jpg">
                 <h3 class="mb-0 mt-2">Kareem Zidane</h3>
                 <span class="text-muted">Harvard University</span>
 
             </div>
-
         </header>
 
-        <main class="m-auto pb-4">
-            <div class="m-auto">
-                <h4 class="border-top pt-4">About Me</h4>
-                <p>
-                I'm a preceptor at Harvard University, mostly doing software development, devops, system administration and a little bit of teaching for <a href="https://cs50.harvard.edu/">CS50</a>, Harvard's introduction to computer science and programming, and a couple of other courses.
-                </p>
-
-                <p class="border-bottom pb-4">
-                I graduated from Helwan University with a bachelor's degree in accounting in 2017, but I have always had a passion for computers. I started studying computer science and programming using online resources in 2014, made my first contribution to an open source project in July 2015, and officially joined CS50's team at Harvard in June 2017.
-                </p>
-
-                <div class="mt-2" id="links">
-                    <a class="mr-1 text-dark " href="mailto:kareem@kzidane.net"><i class="fas fa-at"></i></a>
-                    <a class="mr-1 text-dark " href="https://github.com/kzidane"><i class="fab fa-github"></i></a>
-                    <a class="text-dark" href="https://facebook.com/kziidane"><i class="fab fa-facebook-square"></i></a>
+        <div>
+            <main class="m-auto px-4 text-left">
+                <div class="pt-4">
+                    <h4>About Me</h4>
                     <p>
-                        Reach out to me at <a href="mailto:kareem@kzidane.net">kareem@kzidane.net</a> or <a href="mailto:kzidane@cs50.harvard.edu">kzidane@cs50.harvard.edu</a> for anything CS50-related!
+                        I'm a preceptor at Harvard University, mostly doing software development, devops, system administration and a little bit of teaching for <a href="https://cs50.harvard.edu/">CS50</a>, Harvard's introduction to computer science and programming, and a couple of other courses.
+                    </p>
+
+                    <p>
+                        I graduated from Helwan University with a bachelor's degree in accounting in 2017, but I have always had a passion for computers. I started studying computer science and programming using online resources in 2014, made my first contribution to an open source project in July 2015, and officially joined CS50's team at Harvard in June 2017.
                     </p>
                 </div>
 
+                <div class="border-top pt-4">
+                    <h4>Projects</h4>
+                    <div class="accordion mt-4" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <button class="btn btn-link collapsed h-100 w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                    CS50 IDE
+                                                </button>
+                                            </div>
+                                            <div class="col-2 text-right">
+                                                <a target="_blank" href="https://cs50.io/">
+                                                    <span class="badge badge-light"><i class="fas fa-external-link-alt"></i></span>
+                                                </a>
+                                                <a target="_blank" href="https://github.com/cs50?utf8=✓&q=harvard.cs50&type=public">
+                                                    <span class="badge badge-light"><i class="fab fa-github"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </h5>
+                            </div>
 
-            </div>
-        </main>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+									<div class="container">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <p>
+                                                I help design, develop, and maintain the CS50 IDE, a customized version of <a href="https://c9.io/">Cloud9</a>, a cloud-based IDE that is now one of <a href="https://aws.amazon.com/cloud9/">Amazon Web Services</a>, to better fit students with little or no prior computer science or programming experience by means of creating and maintaining a set of plugins that simplify the look and feel of the IDE as well as installing and configuring the software that is needed for the course.
+                                                </p>
+                                                <p>
+                                                    I also develop and maintain an offline version of the CS50 IDE that uses Docker, a popular containerization technology. Recently, I have been focusing on switching our users to a customized version of AWS Cloud9 which uses a new version of Cloud9 SDK and would be hosted on Amazon infrastructure that we manage.
+                                                </p>
+                                            </div>
+
+                                            <div class="col-4 text-center">
+                                                <button type="button" class="btn btn-link" data-toggle="modal" data-target="#ideScreenshot">
+                                                    <img alt="CS50 IDE" class="rounded-corder d-block m-auto" src="images/ide.png">
+                                                    <small class="text-muted">Screenshot</small>
+                                                </button>
+                                                <div class="modal fade" id="ideScreenshot" tabindex="-1" role="dialog" aria-labelledby="ideModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="ideModalLabel">CS50 IDE Screenshot</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                  <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <img alt="CS50 IDE" class="w-100" src="images/ide.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+												</div>
+                                            </div>
+                                        </div>
+									</div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <button class="btn btn-link collapsed h-100 w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Publish50
+                                                </button>
+                                            </div>
+                                            <div class="col-2"></div>
+                                        </div>
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <p>
+                                                    A web-based tool built on top of technologies such as Docker, MySQL, FFmpeg, Celery, Flower, AWS and Google APIs that is used internally by CS50's production team for video transcoding to different formats and resolutions, generating assets such as video thumbnails, quality assurance, and publishing to CS50's content delivery network in a multithreaded fashion using a friendly user interface.
+                                                </p>
+                                            </div>
+                                            <div class="col-4 text-center">
+                                                <button type="button" class="btn btn-link" data-toggle="modal" data-target="#publish50Screenshot">
+                                                    <img alt="publish50" class="rounded-corder d-block m-auto" src="images/publish50.png">
+                                                    <small class="text-muted">Screenshot</small>
+                                                </button>
+                                                <div class="modal fade" id="publish50Screenshot" tabindex="-1" role="dialog" aria-labelledby="publish50ModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="publish50ModalLabel">Publish50 Screenshot</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                  <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <img alt="publish50" class="w-100" src="images/publish50.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+												</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <button class="btn btn-link collapsed h-100 w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Debug50
+                                                </button>
+                                            </div>
+                                            <div class="col-2 text-right">
+                                                <a target="_blank" href="https://github.com/cs50/harvard.cs50.debug">
+                                                    <span class="badge badge-light"><i class="fab fa-github"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-8">
+                                                <p>
+                                                    Cloud9's graphical remote <a href="https://github.com/c9/core/tree/master/plugins/c9.ide.run.debug">debugger</a> wasn't pedagogically ideal for us, so we developed a wrapper plugin around it that made it possible to start the debugger from <code>bash</code> and provide some useful feedback. I also recently integrated <a href="https://github.com/cmorisse/ikp3db">ikp3db</a> into that wrapper making it possible to use it for debugging Python scripts.
+                                                </p>
+                                                        </div>
+                                            <div class="col-4 text-center">
+                                                <button type="button" class="btn btn-link" data-toggle="modal" data-target="#debug50Screenshot">
+                                                    <img alt="debug50" class="rounded-corder d-block m-auto" src="images/debug50.png">
+                                                    <small class="text-muted">Screenshot</small>
+                                                </button>
+                                                <div class="modal fade" id="debug50Screenshot" tabindex="-1" role="dialog" aria-labelledby="debug50ModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="debug50ModalLabel">Debug50 Screenshot</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                  <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <img alt="debug50" class="w-100" src="images/debug50.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+												</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="border-top pt-4 mx-auto my-4">
+                <p>
+                    Reach out to me at <a href="mailto:kareem@kzidane.net">kareem@kzidane.net</a> or <a href="mailto:kzidane@cs50.harvard.edu">kzidane@cs50.harvard.edu</a> for anything CS50-related!
+                </p>
+                <a class="mr-1 text-dark " href="mailto:kareem@kzidane.net"><i class="fas fa-at"></i></a>
+                <a class="mr-1 text-dark " href="https://github.com/kzidane"><i class="fab fa-github"></i></a>
+                <a class="text-dark" href="https://facebook.com/kziidane"><i class="fab fa-facebook-square"></i></a>
+            </footer>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
