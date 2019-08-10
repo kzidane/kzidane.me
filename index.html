@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <meta property="og:url" content="https://kzidane.net" >
+        <meta property="og:url" content="https://kzidane.net/" >
         <meta property="og:type" content="profile" >
         <meta property="og:title" content="Kareem Zidane" >
-        <meta property="og:description" content="I'm a preceptor at Harvard University, mostly doing software development, devops, system administration and a little bit of teaching." >
+        <meta property="og:description" content="A preceptor at Harvard University, doing software development, DevOps, system administration and of teaching." >
         <meta property="og:image" content="https://kzidane.net/images/og-image.png" >
         <meta property="fb:app_id" content="1908562059196953" >
 
@@ -36,7 +36,7 @@
             header {
             }
 
-            img {
+            .avatar {
                 width: 180px;
             }
 
@@ -48,7 +48,6 @@
                 font-size: 18px;
                 line-height: 1.58;
                 line-spacing: -.004em;
-                font-family: Georgia;
             }
 
             footer {
@@ -65,15 +64,12 @@
             <div class="pt-4">
 
                 <div>
-                    <img alt="Kareem" class="rounded-circle" src="images/me.jpg">
+                    <img alt="Kareem" class="avatar rounded-circle" src="images/me.jpg">
                 </div>
                 <div class="mt-3">
                     <h2 class="mb-0">Kareem Zidane</h2>
                     <span class="text-dark">Harvard University</span>
                 </div>
-                <!-- <div class="mt-1 h5"> -->
-                <!--     <1!-- <a class="text-dark" href="mailto:kareem@kzidane.net"><i class="far fa-envelope" title="Email"></i></a> --1> -->
-                <!-- </div> -->
             </div>
         </header>
 
@@ -94,28 +90,33 @@
                 <div class="mt-5">
                     <h2>Projects</h2>
                     <hr>
-                    <p>Here are a few of the projects that I worked (or have been working) on. See my <a target="_blank" href="https://github.com/kzidane">GitHub</a> for more!
                     <div class="mt-3">
-                        <h3>CS50 IDE</h3>
-                        <!-- <hr> -->
-                        <p>I help design, develop, and maintain the CS50 IDE, a customized version of <a target="_blank" href="https://aws.amazon.com/cloud9/">AWS Cloud9</a>, a cloud-based IDE, to make it more accessible to students with little or no prior computer science or programming experience by means of developing and maintaining a set of <a target="_blank" href="https://github.com/cs50/harvard.cs50.debug">plugins</a> that simplify the look and feel of the IDE as well as installing and configuring the software that is needed for the course. Recently I have also been developing and maintaining infrastructure backend for the IDE that runs on <a target="_blank" href="https://kubernetes.io/">Kubernetes</a>, a very popular open source container orchestrator. I also develop and maintain an offline version of the CS50 IDE that uses <a href="https://www.docker.com/" target="_blank">Docker</a>, a popular containerization technology.</p> 
+                        <div class="text-center">
+                            <img class="img-fluid" src="images/ide.png">
+                        </div>
+                        <h4 class="mt-3">CS50 IDE</h4>
+                        <p>I help design, develop, and maintain the <a href="https://ide.cs50.io/">CS50 IDE</a>, a customized version of <a target="_blank" href="https://aws.amazon.com/cloud9/">AWS Cloud9</a>, a cloud-based IDE, to make it more accessible to students with little or no prior computer science or programming experience by means of developing and maintaining a set of <a target="_blank" href="https://github.com/cs50/harvard.cs50.debug">plugins</a> that simplify the look and feel of the IDE as well as installing and configuring the software that is needed for the course. Recently I have also been developing and maintaining infrastructure backend for the IDE that runs on <a target="_blank" href="https://kubernetes.io/">Kubernetes</a>, a very popular open source container orchestrator. I also develop and maintain an offline version of the CS50 IDE that uses <a href="https://www.docker.com/" target="_blank">Docker</a>, a popular containerization technology.</p>
 
                     </div>
 
                     <div class="mt-5">
-                        <h3>Debug50</h3>
+                        <div class="text-center">
+                            <img class="img-fluid" src="images/debug50.png">
+                        </div>
+                        <h3 class="mt-3">Debug50</h3>
                         <!-- <hr> -->
                         <p>The user experience of Cloud9's graphical remote <a href="https://github.com/c9/core/tree/master/plugins/c9.ide.run.debug">debugger</a> wasn't pedagogically ideal for us. We encourage students to use the terminal to compile and execute their programs, as opposed to using a graphical user interface, to give them a sense of what the process looks like. We wanted students to be able to start the debugger from the terminal too, but unfortunately this isn't easily possible
                             on Cloud9. I contributed to Debug50, a Cloud9 plugin and gdb interface that makes it possible to start the debugger from the terminal on Cloud9 and provides some useful feedback for students. Recently I also added support for debugging Python scripts by integrating <a href="https://github.com/cmorisse/ikp3db">ikp3db</a>.</p>
                     </div>
-                          
+
 
                     <div class="mt-5">
-                        <h3>Publish50</h3>
+                        <img class="img-fluid" src="images/publish50.png">
+                        <h3 class="mt-3">Publish50</h3>
                         <!-- <hr> -->
                         <p>An <a target="_blank" href="https://electronjs.org/">Electron</a> app built on top of technologies such as <a target="_blank" href="https://github.com/OptimalBits/bull">Bull</a>, <a target="_blank" href="https://ffmpeg.org/">FFmpeg</a>, <a target="_blank" href="https://reactjs.org/">ReactJS</a>, and different AWS and Google APIs that automates and facilitates some of CS50's production team workflows such as video transcoding to different formats and resolutions, generating audio and video assets, quality assurance, and publishing content to CS50's content delivery network in a parallel fashion and using a friendly user interface.</p>
                     </div>
-                  
+
             <footer class="mx-auto my-3 px-5 text-center">
                 <p class="border-top pt-3">
                     See more projects on <a href="https://github.com/kzidane" target="_blank">GitHub</a> or reach out to me at <a href="mailto:kareem@kzidane.net">kareem@kzidane.net</a> or <a href="mailto:kzidane@cs50.harvard.edu">kzidane@cs50.harvard.edu</a>!
