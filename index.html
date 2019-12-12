@@ -32,12 +32,7 @@
                 text-decoration: none !important;
             }
 
-
             header {
-            }
-
-            .avatar {
-                width: 180px;
             }
 
             main {
@@ -47,16 +42,7 @@
             p {
                 font-size: 18px;
                 line-height: 1.58;
-                line-spacing: -.004em;
             }
-
-            /*footer {
-                max-width: 768px;
-            }
-
-            footer p {
-                font-size: initial;
-            }*/
         </style>
     </head>
     <body class="h-100 text-center">
@@ -64,7 +50,7 @@
             <div class="pt-4">
 
                 <div>
-                    <img alt="Kareem" class="avatar rounded-circle" src="images/me.jpg">
+                    <img alt="Kareem" src="images/me.jpg">
                 </div>
                 <div class="mt-3">
                     <h2 class="mb-0">Kareem Zidane</h2>
@@ -90,10 +76,9 @@
 
                     <p>
                         I graduated from <a href="https://en.wikipedia.org/wiki/Helwan_University" target="_blank">Helwan University</a>,
-                        in Cairo, Egypt, with a bachelor's degree in accounting in 2017, but I've always had a passion for computers.
-                        I started studying computer science and programming from online resources in 2014, made my first
-                        contribution to an open source project in July 2015, and officially joined the CS50 team at Harvard in June
-                        2017.
+                        in Cairo, Egypt, with a bachelor's degree in accounting in 2017, but I've always been passionate about computers.
+                        I started studying computer science and programming from online resources in 2014, made my first contribution to
+                        an open source project in 2015, and officially joined the CS50 team at Harvard in 2017.
                     </p>
                 </div>
 
@@ -107,31 +92,29 @@
                         <h4 class="mt-3">CS50 IDE</h4>
                         <p>
                             I help design, develop, and maintain the <a href="https://ide.cs50.io/">CS50 IDE</a>, a customized version
-                            of <a target="_blank" href="https://aws.amazon.com/cloud9/">AWS Cloud9</a> (a cloud-based IDE) to make it
-                            more accessible to students with little or no prior computer science or programming experience. I develop
-                            and maintain a set of <a target="_blank" href="https://github.com/cs50/harvard.cs50.debug">plugins</a> that
-                            customize and simplify the look and feel of the IDE and install and configure the tools used in our courses.
-                            Recently, I developed the infrastructure backend for the IDE that runs on
-                            <a target="_blank" href="https://kubernetes.io/">Kubernetes</a>, a very popular open source container
-                            orchestrator. I also develop and maintain an offline version of the CS50 IDE that uses
-                            <a href="https://www.docker.com/" target="_blank">Docker</a>, a popular containerization technology.
+                            of <a target="_blank" href="https://aws.amazon.com/cloud9/">AWS Cloud9</a>, to make it more accessible to
+                            students with little or no prior computer science or programming experience. I develop and maintain the
+                            infrastructure backend for the IDE on top of <a target="_blank" href="https://kubernetes.io/">Kubernetes</a>
+                            and other services, a set of <a target="_blank" href="https://github.com/cs50/harvard.cs50.debug">plugins</a>
+                            that customize and simplify the IDE's look and feel, and an offline version of the IDE that runs on top of
+                            <a href="https://www.docker.com/" target="_blank">Docker</a>.
                         </p>
                     </div>
 
                     <div class="mt-5">
                         <div class="text-center">
-                            <img img="Debug50" class="img-fluid" src="images/debug50.png">
+                            <img alt="Debug50" class="img-fluid" src="images/debug50.png">
                         </div>
                         <h3 class="mt-3">Debug50</h3>
                         <p>
-                            The user experience of Cloud9's graphical remote
+                            The user experience of Cloud9's graphical
                             <a href="https://github.com/c9/core/tree/master/plugins/c9.ide.run.debug">debugger</a> wasn't pedagogically
-                            ideal for us. We encourage students to use the terminal to compile and execute their programs, as opposed to
-                            using a graphical user interface, to give them a sense of what the process looks like. We wanted students to
-                            be able to start the debugger from the terminal too, but unfortunately this isn't easily possible
-                            on Cloud9. I contributed to Debug50, a Cloud9 plugin and gdb interface that makes it possible to start the
-                            debugger from the terminal on Cloud9 and provides some useful feedback to students. Recently, I also added
-                            support for debugging Python scripts by integrating <a href="https://github.com/cmorisse/ikp3db">ikp3db</a>.
+                            ideal for us. We encourage students to use the terminal to compile and execute their programs to give them
+                            a sense of how things work. We wanted students to be able to start the debugger from the terminal too,
+                            but that wasn't easily possible on Cloud9. I contributed to Debug50, a Cloud9 plugin and gdb interface that
+                            makes it possible to start the debugger from Cloud9's terminal and provides some useful feedback to students.
+                            Recently, I also added support for debugging Python scripts by integrating
+                            <a href="https://github.com/cmorisse/ikp3db">ikp3db</a>.
                         </p>
                     </div>
 
@@ -144,19 +127,13 @@
                             as <a target="_blank" href="https://github.com/OptimalBits/bull">Bull</a>,
                             <a target="_blank" href="https://ffmpeg.org/">FFmpeg</a>,
                             <a target="_blank" href="https://reactjs.org/">ReactJS</a>, and different AWS and Google APIs that
-                            facilitates some of CS50's production team workflows by automating tasks such as video transcoding to
+                            simplifies some of CS50's production team workflows by automating tasks such as video transcoding to
                             different formats and resolutions, generating audio and video assets, quality assurance, and publishing
                             content to CS50's content delivery network in a parallel fashion and using a friendly user interface.
                         </p>
                     </div>
-
-            <!--<footer class="mx-auto my-3 px-5 text-center">
-                <p class="border-top pt-3">
-                    See more projects on <a href="https://github.com/kzidane" target="_blank">GitHub</a> or reach out to me at
-                    <a href="mailto:kareem@kzidane.net">kareem@kzidane.net</a> or
-                    <a href="mailto:kzidane@cs50.harvard.edu">kzidane@cs50.harvard.edu</a>!
-                </p>
-            </footer>-->
+                </div>
+            </main>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
