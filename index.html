@@ -54,7 +54,6 @@
 
             .avatar {
                 background-color: white;
-                padding: 10px;
                 width: 200px;
             }
 
@@ -74,12 +73,12 @@
     </head>
     <body class="h-100 text-center">
         <header class="py-4 w-100">
-            <div>
+            <div class="d-none">
                 <div>
-                    <img class="avatar rounded-circle" alt="Kareem" src="images/me.jpg">
+                    <img class="avatar rounded-circle" alt="Kareem">
                 </div>
                 <div>
-                    <h2 class="mb-0">Kareem Zidane</h2>
+                    <h2 class="mt-2 mb-0">Kareem Zidane</h2>
                     <span class="text-dark">Harvard University</span>
                     <div class="mt-1">
                         <a href="mailto:kzidane@cs50.harvard.edu">Email</a><a href="https://www.facebook.com/kzidane2" class="border-left px-2 ml-2">Facebook</a><a class="border-left border-right px-2 mr-2" href="https://github.com/kzidane">GitHub</a><a href="https://www.linkedin.com/in/kzidane1/">LinkedIn</a>
@@ -121,7 +120,7 @@
                         that customize and simplify the IDE's look and feel, and an offline version of the IDE that runs on top of
                         <a href="https://www.docker.com/" target="_blank">Docker</a>.
                     </p>
-                    <img class="" src="images/ide.png" />
+                    <img class="" src="images/ide.png">
                 </div>
 
                 <div class="project mt-5">
@@ -136,7 +135,7 @@
                         Recently, I also added support for debugging Python scripts by integrating
                         <a href="https://github.com/cmorisse/ikp3db">ikp3db</a>.
                     </p>
-                    <img class="" src="images/debug50.png" />
+                    <img class="" src="images/debug50.png">
                 </div>
 
                 <div class="project mt-5 pb-5">
@@ -150,7 +149,7 @@
                         different formats and resolutions, generating audio and video assets, quality assurance, and publishing
                         content to CS50's content delivery network.
                     </p>
-                    <img class="" src="images/publish50.png" />
+                    <img class="" src="images/publish50.png">
                 </div>
             </div>
         </main>
@@ -158,5 +157,12 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script>
+            const avatar = document.querySelector("img.avatar")
+            if (avatar) {
+                avatar.onload = () => avatar.parentElement.parentElement.classList.remove("d-none")
+                avatar.src = "images/me.jpg"
+            }
+        </script>
     </body>
 </html>
