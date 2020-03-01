@@ -1,0 +1,9 @@
+language: ruby
+cache: bundler
+script: bundle exec jekyll build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  fqdn: kzidane.net
+  local_dir: _site
+  github_token: $GITHUB_TOKEN
