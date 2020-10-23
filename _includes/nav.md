@@ -2,5 +2,5 @@
 * [About](/#about)
 * [Experience](/#experience)
 * [Projects](/#projects)
-* [Educataion](/#education)
+* [Education](/#education)
 * [Résumé](/kareem-zidane.pdf)
