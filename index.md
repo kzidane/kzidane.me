@@ -1,3 +1,7 @@
+---
+title: Kareem Zidane
+---
+
 ## About
 
 I'm a software engineer and a TF for [CS50](https://cs50.harvard.edu/) and a few other classes at [Harvard](https://harvard.edu/). I graduated from [Helwan University](https://en.wikipedia.org/wiki/Helwan_University) with a degree in Accounting, but I have always been passionate about computers. I started self-studying computer science and programming in 2014, made my first contribution to an open source project in 2015, and joined the CS50 team at Harvard in 2017.
