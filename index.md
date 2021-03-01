@@ -20,7 +20,7 @@ Developed websites for different company product lines and worked with a team of
 ## Projects
 
 **CS50 IDE** / A cloud-based IDE based on AWS Cloud9<br>
-Designed and built the infrastructure backend and the orchestration of compute and storage on top of [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), [Portworx](https://portworx.com/), and other tools and services, optimizing for cost and resources and speeding up the IDE’s loading time by at least 6x. Developed a set of JavaScript plugins that simplify and customize the look and feel of the IDE, making it more accessible to students with no prior programming experience.
+Designed and built the infrastructure backend and the orchestration of compute and storage on top of [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), [EFS](https://aws.amazon.com/efs/), and other tools and services, optimizing for cost and resources and speeding up the IDE’s loading time by at least 6x. Developed a set of JavaScript plugins that simplify and customize the look and feel of the IDE, making it more accessible to students with no prior programming experience.
 
 Links:<br>
 [ide.cs50.io](https://ide.cs50.io/)
