@@ -9,7 +9,7 @@ I'm a software engineer and a TF for [CS50](https://cs50.harvard.edu/) and a few
 
 ## Experience
 
-**Harvard University** / Software Engineer 2017–PRESENT<br>
+**Harvard University** / Software Engineer 2017–2021<br>
 I help teach and support 3+ introductory-level CS and programming classes, including [CS50](https://cs50.harvard.edu/), Harvard’s largest CS class with 700+ students on campus and 1M+ registrants [online](https://cs50.edx.org/), where I build and maintain tools used by hundreds of students on campus and tens of thousands of students online, mentor 2+ undergrads as they are working on dev projects over the summer, and mentor groups of students as they are working on their final projects during the semester.
 
 
