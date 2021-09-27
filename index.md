@@ -10,7 +10,7 @@ I'm a Software Engineer at [Databricks](https://databricks.com/). Previously, I 
 ## Experience
 
 **Harvard University** / Software Engineer 2017–2021<br>
-I help teach and support 3+ introductory-level CS and programming classes, including [CS50](https://cs50.harvard.edu/), Harvard’s largest CS class with 700+ students on campus and 1M+ registrants [online](https://cs50.edx.org/), where I build and maintain tools used by hundreds of students on campus and tens of thousands of students online, mentor 2+ undergrads as they are working on dev projects over the summer, and mentor groups of students as they are working on their final projects during the semester.
+I helped teach and support 3+ introductory-level CS and programming classes, including [CS50](https://cs50.harvard.edu/), Harvard’s largest CS class with 700+ students on campus and 1M+ registrants [online](https://cs50.edx.org/), where I built and maintained tools used by hundreds of students on campus and tens of thousands of students online, mentored 2+ undergrads as they worked on dev projects over the summer, and mentored groups of students as they worked on their final projects during the semester.
 
 
 **HST** / Software Engineer 2015–2016<br>
