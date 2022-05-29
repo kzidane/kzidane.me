@@ -32,7 +32,7 @@ Links:<br>
 [<i class="fas fa-link"></i> publish50-electron](https://github.com/cs50/publish50-electron/)
 
 **debug50** - A wrapper for the Cloud9 debugger<br>
-Improved the underlying gdb interface and added support for debugging Python 3 programs by integrating i[kp3db](https://github.com/cs50/ikp3db/).
+Improved the underlying gdb interface and added support for debugging Python 3 programs by integrating [ikp3db](https://github.com/cs50/ikp3db/).
 
 Links:<br>
 [<i class="fas fa-link"></i> harvard.cs50.debug](https://github.com/cs50/harvard.cs50.debug/)<br>
