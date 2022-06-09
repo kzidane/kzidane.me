@@ -12,6 +12,20 @@ body {
   font-family: barlow-regular;
 }
 
+main.col-md {
+  padding: 24px 32px;
+}
+
+header h2 {
+  font-size: 32px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+main a, main a:hover {
+  color: teal;
+}
+
 main p {
   font-size: 20px;
 }
@@ -20,18 +34,7 @@ aside {
   background-color: #1f305e;
 }
 
-a {
-  color: crimson;
-}
-
-hr {
-    border-top: 1px solid rgba(255, 255, 255, .25);
-}
-
 .sidebar-logo {
-  font-size: 32px;
-}
-
-.fa-link {
-  font-size: 14px;
+  font-size: 24px;
+  margin-right: 2px;
 }
