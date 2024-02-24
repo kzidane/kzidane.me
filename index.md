@@ -53,12 +53,12 @@ Helwan University ‘17 - Bachelor’s degree in Accounting
     $('.embed-responsive-16by9').removeClass('embed-responsive-16by9').addClass('embed-responsive-21by9');
 </script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154496330-1"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SP65C1BP2K"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-154496330-1');
+    gtag('config', 'G-SP65C1BP2K');
 </script>
