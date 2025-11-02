@@ -4,7 +4,7 @@ title: Kareem Zidane
 
 ## Summary
 
-I'm a Senior Software Engineer with 8+ years of experience at building large-scale distributed systems and developer tools. I'm currently at [Databricks](https://databricks.com/){:target="_blank"} working managed ETL orchestration systems. Previously, I built software tools and cloud infrastructure for [Harvard's CS50](https://cs50.harvard.edu/){:target="_blank"}, serving over 1M students and hudreds of teachers worldwide.
+I'm a Senior Software Engineer with 8+ years of experience at building large-scale distributed systems and developer tools. I'm currently at [Databricks](https://databricks.com/){:target="_blank"} working on managed ETL orchestration systems. Previously, I built software tools and cloud infrastructure for [Harvard's CS50](https://cs50.harvard.edu/){:target="_blank"}, serving over 1M students and 100s of teachers worldwide.
 
 ## Experience
 
@@ -21,7 +21,7 @@ Helped teach and support 3+ intro-level CS and programming classes, including [C
 Designed and built the infrastructure backend and the orchestration of compute and storage on top of [Docker](https://www.docker.com/){:target="_blank"}, [Kubernetes](https://kubernetes.io/){:target="_blank"}, [EFS](https://aws.amazon.com/efs/){:target="_blank"}, and other tools and services, optimizing for cost and resources and speeding up the IDE’s loading time by at least 6x. Built a set of JavaScript plugins that simplify and customize the look and feel of the IDE, making it more accessible to students with no prior programming experience.
 
 Links:<br>
-<i class="fas fa-link"></i> CS50 IDE{:target="_blank"}
+CS50 IDE
 
 **publish50** - An Electron app for facilitating video production workflows<br>
 Designed and built an [electron](https://www.electronjs.org/){:target="_blank"} app with a [ReactJS](https://reactjs.org/){:target="_blank"} frontend that helped CS50's production team by streamlining the transcoding of terabytes of videos, using [FFMPEG](https://www.ffmpeg.org/){:target="_blank"}, and publishing the generated assets to YouTube and the course's CDN, backed by [S3](https://aws.amazon.com/s3/){:target="_blank"} and [CloudFront](https://aws.amazon.com/cloudfront/){:target="_blank"}, speeding up the production time of a video from a day+ to just a few hours.
