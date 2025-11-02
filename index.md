@@ -4,7 +4,7 @@ title: Kareem Zidane
 
 ## Summary
 
-I'm a Senior Software Engineer with 8+ years of experience at building large-scale distributed systems and developer tools. I currently work at [Databricks](https://databricks.com/){:target="_blank"} working managed ETL orchestration systems. Previously, I built software tools and cloud infrastructure for [Harvard's CS50](https://cs50.harvard.edu/){:target="_blank"}, serving over 1M students and hudreds of teachers worldwide.
+I'm a Senior Software Engineer with 8+ years of experience at building large-scale distributed systems and developer tools. I'm currently at [Databricks](https://databricks.com/){:target="_blank"} working managed ETL orchestration systems. Previously, I built software tools and cloud infrastructure for [Harvard's CS50](https://cs50.harvard.edu/){:target="_blank"}, serving over 1M students and hudreds of teachers worldwide.
 
 ## Experience
 
