@@ -3,4 +3,4 @@
 * **[Experience](/#experience)**
 * **[Projects](/#projects)**
 * **[Education](/#education)**
-* **[Résumé](/kareem-zidane.pdf)**
+* **<a href="javascript:window.print()">Résumé</a>**

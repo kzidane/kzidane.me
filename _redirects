@@ -1,2 +1,14 @@
 http://kzidane.net/* https://kzidane.me/:splat 301!
 https://kzidane.net/* https://kzidane.me/:splat 301!
+
+# Databricks Product Links
+/jobs https://www.databricks.com/product/data-engineering/lakeflow-jobs 302
+/pipelines https://www.databricks.com/product/data-engineering/spark-declarative-pipelines 302
+/task-values https://docs.databricks.com/en/workflows/jobs/share-task-context.html 302
+/repair-rerun https://docs.databricks.com/en/workflows/jobs/repair-job-failures.html 302
+/file-triggers https://docs.databricks.com/aws/en/jobs/file-arrival-triggers 302
+/job-params https://docs.databricks.com/aws/en/jobs/dynamic-value-references 302
+
+# Project Links
+/ide-video https://youtu.be/rIY44XIGBz0 302
+/gdb-debugger https://github.com/c9/core/blob/master/plugins/c9.ide.run.debug/debuggers/gdb/ 302

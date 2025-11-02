@@ -38,3 +38,237 @@ aside {
   font-size: 24px;
   margin-right: 2px;
 }
+
+/* Hide print-only header on screen */
+.print-only-header {
+  display: none;
+}
+
+/* Print Styles */
+@media print {
+  /* Page setup */
+  @page {
+    margin: 0.75in;
+    size: letter;
+  }
+
+  /* Hide non-essential elements */
+  aside,
+  .sidebar,
+  nav {
+    display: none !important;
+  }
+
+  /* Show print-only header */
+  .print-only-header {
+    display: block !important;
+    margin-bottom: 16pt;
+    padding-bottom: 12pt;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .print-only-header h1 {
+    font-size: 22pt;
+    margin: 0 0 8pt 0;
+    font-weight: bold;
+  }
+
+  .print-only-header p {
+    font-size: 10pt !important;
+    margin: 0;
+  }
+
+  /* Make content full-width */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  main.col-md {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Typography adjustments - smaller font */
+  body {
+    font-size: 10pt;
+    line-height: 1.3;
+    color: #000 !important;
+    background: white !important;
+  }
+
+  main p {
+    font-size: 10pt;
+  }
+
+  h2 {
+    font-size: 14pt !important;
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    font-size: 12pt !important;
+    page-break-after: avoid;
+  }
+
+  /* Page break control */
+  section,
+  div,
+  p {
+    page-break-inside: avoid;
+  }
+
+  h2, h3, h4 {
+    page-break-after: avoid;
+  }
+
+  /* Link handling - show URLs without parentheses */
+  main a {
+    color: #0066cc !important;
+    text-decoration: none;
+  }
+
+  /* Hide generic technology and AWS service links from PDF */
+  main a[href*="docker.com"]::after,
+  main a[href*="kubernetes.io"]::after,
+  main a[href*="aws.amazon.com"]::after,
+  main a[href*="reactjs.org"]::after,
+  main a[href*="electronjs.org"]::after,
+  main a[href*="ffmpeg.org"]::after,
+  main a[href*="heroku.com"]::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  /* Show full URLs for important external links */
+  main a[href*="cs50.harvard.edu"]::after {
+    content: " https://cs50.harvard.edu" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="cs50.edx.org"]::after {
+    content: " https://cs50.edx.org" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="databricks.com"]::after {
+    content: " https://databricks.com" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  /* Show shortened kzidane.me URLs for specific internal links */
+  main a[href*="kzidane.me/jobs"]::after {
+    content: " https://kzidane.me/jobs" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="kzidane.me/pipelines"]::after {
+    content: " https://kzidane.me/pipelines" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="kzidane.me/task-values"]::after {
+    content: " https://kzidane.me/task-values" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="kzidane.me/repair-rerun"]::after {
+    content: " https://kzidane.me/repair-rerun" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="kzidane.me/file-triggers"]::after {
+    content: " https://kzidane.me/file-triggers" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="kzidane.me/job-params"]::after {
+    content: " https://kzidane.me/job-params" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="kzidane.me/ide-video"]::after {
+    content: " https://kzidane.me/ide-video" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="github.com/cs50/publish50-electron"]::after {
+    content: " https://github.com/cs50/publish50-electron" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="github.com/cs50/harvard.cs50.debug"]::after {
+    content: " https://github.com/cs50/harvard.cs50.debug" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  main a[href*="kzidane.me/gdb-debugger"]::after {
+    content: " https://kzidane.me/gdb-debugger" !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    word-break: break-all !important;
+    display: inline !important;
+  }
+
+  /* Remove backgrounds and ensure black text */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  main a {
+    color: #0066cc !important;
+  }
+
+  /* Hide link icons */
+  .fas.fa-link {
+    display: none;
+  }
+
+  /* Compact spacing */
+  main h2:first-of-type {
+    margin-top: 0;
+  }
+}
