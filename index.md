@@ -4,16 +4,16 @@ title: Kareem Zidane
 
 ## Summary
 
-I'm a Software Engineer at [Databricks](https://databricks.com/){:target="_blank"}. Before Databricks, I was a Software Engineer at [Harvard's CS50](https://cs50.harvard.edu/){:target="_blank"}, where I worked on multiple software projects used by students and teachers and helped teach a few classes.
+I'm a Senior Software Engineer with 8+ years of experience at building large-scale distributed systems and developer tools. I currently work at [Databricks](https://databricks.com/){:target="_blank"} working managed ETL orchestration systems. Previously, I built software tools and cloud infrastructure for [Harvard's CS50](https://cs50.harvard.edu/){:target="_blank"}, serving over 1M students and hudreds of teachers worldwide.
 
 ## Experience
 
 **Databricks** - Sr. Software Engineer 2021–Present
 
-I help develop [Databricks Lakeflow Jobs and Pipelines](https://www.databricks.com/blog/introducing-databricks-lakeflow){:target="_blank"}, a fully managed orchestration system data processing, machine learning, and analytics pipelines. I helped build features such as [task values](https://docs.databricks.com/en/workflows/jobs/share-task-context.html){:target="_blank"}, [repair and rerun](https://docs.databricks.com/en/workflows/jobs/repair-job-failures.html){:target="_blank"}, [file arrival triggers](https://docs.databricks.com/aws/en/jobs/file-arrival-triggers){:target="_blank"}, and [job parameters](https://docs.databricks.com/aws/en/jobs/dynamic-value-references) among others. Recently I have been focusing on improving the reliability and scalability of Lakeflow Jobs and Pipelines.
+I help develop Databricks Lakeflow [Jobs](https://www.databricks.com/product/data-engineering/lakeflow-jobs) and [Pipelines](https://www.databricks.com/product/data-engineering/spark-declarative-pipelines){:target="_blank"}, a fully managed orchestration system data processing, machine learning, and analytics pipelines. I helped build features such as [task values](https://docs.databricks.com/en/workflows/jobs/share-task-context.html){:target="_blank"}, [repair and rerun](https://docs.databricks.com/en/workflows/jobs/repair-job-failures.html){:target="_blank"}, [file arrival triggers](https://docs.databricks.com/aws/en/jobs/file-arrival-triggers){:target="_blank"}, and [job parameters](https://docs.databricks.com/aws/en/jobs/dynamic-value-references) among others. Recently I have been focusing on improving the reliability and scalability of Lakeflow Jobs and Pipelines.
 
 **Harvard University** - Software Engineer 2017–2021<br>
-Helped teach and support 3+ intro-level CS and programming classes, including [CS50](https://cs50.harvard.edu/){:target="_blank"}, Harvard’s largest CS class with 700+ students on campus and [1M+ registrants online](https://cs50.edx.org/){:target="_blank"}. Built and maintained tools used by tens of teachers, hundreds of students on campus, and tens of thousands of students online. Mentored groups of students while they worked on dev projects.
+Helped teach and support 3+ intro-level CS and programming classes, including [CS50](https://cs50.harvard.edu/){:target="_blank"}, Harvard’s largest CS class with 700+ students on campus and [1M+ registrants online](https://cs50.edx.org/){:target="_blank"}. Built and maintained tools used by hundreds of teachers, hundreds of students on campus, and tens of thousands of online learners. Mentored student dev teams.
 
 ## Projects
 
@@ -24,7 +24,7 @@ Links:<br>
 <i class="fas fa-link"></i> CS50 IDE{:target="_blank"}
 
 **publish50** - An Electron app for facilitating video production workflows<br>
-Designed and built an [electron](https://www.electronjs.org/){:target="_blank"} app with a [ReactJS](https://reactjs.org/){:target="_blank"} frontend that helped CS50's production team by streamlining the transcoding of terabytes of videos, using [FFMPEG](https://www.ffmpeg.org/){:target="_blank"}, and publishing the generated assets to YouTube and the course's CDN, backed by [S3](https://aws.amazon.com/s3/){:target="_blank"} and [CloudFront](https://aws.amazon.com/cloudfront/){:target="_blank"}, speeding up the production time of a single video by at least 5x.
+Designed and built an [electron](https://www.electronjs.org/){:target="_blank"} app with a [ReactJS](https://reactjs.org/){:target="_blank"} frontend that helped CS50's production team by streamlining the transcoding of terabytes of videos, using [FFMPEG](https://www.ffmpeg.org/){:target="_blank"}, and publishing the generated assets to YouTube and the course's CDN, backed by [S3](https://aws.amazon.com/s3/){:target="_blank"} and [CloudFront](https://aws.amazon.com/cloudfront/){:target="_blank"}, speeding up the production time of a video from a day+ to just a few hours.
 
 Links:<br>
 [<i class="fas fa-link"></i> publish50-electron](https://github.com/cs50/publish50-electron/){:target="_blank"}
@@ -38,6 +38,10 @@ Links:<br>
 
 **Other work**<br>
 Helped develop, dockerize, and configure CI/CD pipelines for many teacher- and student-facing apps (e.g., auto-testing/grading, submission tools, etc) to different services (e.g., [EB](https://aws.amazon.com/elasticbeanstalk/){:target="_blank"}, [ECS](https://aws.amazon.com/ecs/){:target="_blank"}, [EKS](https://aws.amazon.com/eks/){:target="_blank"}, [Heroku](https://www.heroku.com/){:target="_blank"}, etc). Supported teachers and students with different technical issues.
+
+## Skills
+Languages: Bash, C, Java, JavaScript, Python, Scala, SQL
+Technologies: AWS/Azure/GCP, CI/CD, Docker, Git/GitHub, Kubernetes, Linux
 
 ## Education
 
