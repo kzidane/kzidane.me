@@ -10,7 +10,7 @@ I'm a Software Engineer at [Databricks](https://databricks.com/){:target="_blank
 
 **Databricks** - Sr. Software Engineer 2021–Present
 
-I help develop [Databricks Workflows](https://docs.databricks.com/en/workflows/index.html){:target="_blank"}, a fully managed orchestration system data processing, machine learning, and analytics pipelines. I helped build features such as [task values](https://docs.databricks.com/en/workflows/jobs/share-task-context.html){:target="_blank"}, [repair and rerun](https://docs.databricks.com/en/workflows/jobs/repair-job-failures.html){:target="_blank"}, [file arrival triggers](https://docs.databricks.com/aws/en/jobs/file-arrival-triggers){:target="_blank"}, and [job parameters](https://docs.databricks.com/aws/en/jobs/dynamic-value-references) among others.
+I help develop [Databricks Lakeflow Jobs and Pipelines](https://www.databricks.com/blog/introducing-databricks-lakeflow){:target="_blank"}, a fully managed orchestration system data processing, machine learning, and analytics pipelines. I helped build features such as [task values](https://docs.databricks.com/en/workflows/jobs/share-task-context.html){:target="_blank"}, [repair and rerun](https://docs.databricks.com/en/workflows/jobs/repair-job-failures.html){:target="_blank"}, [file arrival triggers](https://docs.databricks.com/aws/en/jobs/file-arrival-triggers){:target="_blank"}, and [job parameters](https://docs.databricks.com/aws/en/jobs/dynamic-value-references) among others. Recently I have been focusing on improving the reliability and scalability of Lakeflow Jobs and Pipelines.
 
 **Harvard University** - Software Engineer 2017–2021<br>
 Helped teach and support 3+ intro-level CS and programming classes, including [CS50](https://cs50.harvard.edu/){:target="_blank"}, Harvard’s largest CS class with 700+ students on campus and [1M+ registrants online](https://cs50.edx.org/){:target="_blank"}. Built and maintained tools used by tens of teachers, hundreds of students on campus, and tens of thousands of students online. Mentored groups of students while they worked on dev projects.
@@ -21,7 +21,7 @@ Helped teach and support 3+ intro-level CS and programming classes, including [C
 Designed and built the infrastructure backend and the orchestration of compute and storage on top of [Docker](https://www.docker.com/){:target="_blank"}, [Kubernetes](https://kubernetes.io/){:target="_blank"}, [EFS](https://aws.amazon.com/efs/){:target="_blank"}, and other tools and services, optimizing for cost and resources and speeding up the IDE’s loading time by at least 6x. Built a set of JavaScript plugins that simplify and customize the look and feel of the IDE, making it more accessible to students with no prior programming experience.
 
 Links:<br>
-[<i class="fas fa-link"></i> CS50 IDE](https://ide.cs50.io/){:target="_blank"}
+<i class="fas fa-link"></i> CS50 IDE{:target="_blank"}
 
 **publish50** - An Electron app for facilitating video production workflows<br>
 Designed and built an [electron](https://www.electronjs.org/){:target="_blank"} app with a [ReactJS](https://reactjs.org/){:target="_blank"} frontend that helped CS50's production team by streamlining the transcoding of terabytes of videos, using [FFMPEG](https://www.ffmpeg.org/){:target="_blank"}, and publishing the generated assets to YouTube and the course's CDN, backed by [S3](https://aws.amazon.com/s3/){:target="_blank"} and [CloudFront](https://aws.amazon.com/cloudfront/){:target="_blank"}, speeding up the production time of a single video by at least 5x.
